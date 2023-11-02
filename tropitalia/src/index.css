@@ -1,0 +1,130 @@
+body {
+  background-color: rgb(48, 167, 218);
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.meu-componente {
+  min-height: 300vh;
+}
+
+/* Estilos para o cabeçalho */
+header {
+  background-color: #8B0000;
+  height: 4.1vw;
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  align-items: center;
+}
+
+header a {
+  display: inline-block;
+
+}
+
+header nav a {
+  text-decoration: none;
+  color: aliceblue;
+  margin-right: 2vw;
+}
+
+header nav a P {
+  color: aliceblue;
+  font-size: 1vw;
+  display: flex;
+  align-items: center;
+
+}
+
+.carrinho {
+  position: absolute;
+  width: 2.2vw;
+  margin-top: -1.5vw;
+
+}
+
+#aa {
+  margin-left: 63vw;
+}
+
+.logo {
+  width: 12vw;
+  margin-top: 0vw;
+  margin-left: 1vw;
+}
+
+
+
+.carrossel {
+  width: 97vw;
+  margin: auto;
+  margin-top: 5vw;
+  position: relative;
+}
+
+.carrossel div img {
+  border-radius: 0.5vw;
+}
+
+
+.product-item {
+  margin-top: 10px;
+}
+
+.product-item img {
+  width: 16vw;
+  margin: auto;
+  border-radius: 0.5vw;
+}
+
+.product-carousel-container {
+  width: 89vw;
+  margin: auto;
+  margin-top: 1vw;
+}
+
+.container-item {
+  width: 17.5vw;
+  background-color: aliceblue;
+  margin: auto;
+  border-radius: 10px;
+  border: solid aliceblue 0.5vw;
+}
+
+.container-item h3,
+p {
+  font-size: 1.6vw;
+}
+
+.borda-informacoes {
+  background-color: aliceblue;
+  width: 88vw;
+  height: 2.5vw;
+  border-radius: 0.5vw;
+  margin: auto;
+  font-size: 1.4vw;
+}
+
+
+footer {
+  background-color: #8B0000;
+  height: 7vw;
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  align-items: center;
+  margin-top: 293vw;
+}
+
+
+
+
+/* 
+Preto (#000000) como cor principal para um visual sofisticado.
+Dourado (#FFD700) para toques de luxo e destaque.
+Vermelho escuro (#8B0000) para contraste. */
